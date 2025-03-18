@@ -58,6 +58,7 @@ a {
   font-weight: bold;
   font-size: 55px;
   font-family: Nerko one;
+  text-shadow: 1px 1px 1px #6f6f6f;
 }
 
 /* MAIN */
@@ -85,6 +86,8 @@ a {
   background-color: white;
   padding: 35px;
   margin-top: -5px;
+  box-shadow: 5px 5px 15px #dedede;
+  border-radius: 3px;
 }
 .info {
   display: flex;
@@ -122,4 +125,29 @@ a {
   align-items: center;
   padding: 10px 16px;
   border-radius: 30px;
+  box-shadow: 5px 5px 15px #dedede;
+}
+.paragraph {
+  /* text-align: center; */
+}
+.title-para {
+  font-size: 35px;
+  font-weight: 400;
+}
+.border {
+  height: 20px;
+  width: 20%;
+  border-bottom: 2px solid #ff9514ff;
+  margin-bottom: 30px;
+}
+.paragraph img {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px #dedede;
+}
+.text {
+  font-size: 20px;
+  line-height: 40px;
 }
