@@ -21,7 +21,8 @@ ul {
   padding-right: 30px;
 }
 a {
-  text-decoration: none;
+  color: white;
+  /* text-decoration: none; */
 }
 
 /* FONT */
@@ -128,6 +129,7 @@ a {
   box-shadow: 5px 5px 15px #dedede;
 }
 .paragraph {
+  padding-bottom: 60px;
   /* text-align: center; */
 }
 .title-para {
@@ -150,4 +152,30 @@ a {
 .text {
   font-size: 20px;
   line-height: 40px;
+}
+.foot {
+  padding: 20px 40px;
+  padding-bottom: 40px;
+  background-color: #7b68a3ff;
+}
+.info-foot {
+  text-align: center;
+}
+.info-foot .info-bold {
+  color: white;
+  padding-bottom: 10px;
+}
+.info-foot .info-light {
+  color: white;
+}
+.link-foot {
+  text-align: center;
+  color: white;
+}
+.link {
+  display: inline;
+  width: 25%;
+  padding: 10px 10px;
+  color: white;
+  padding-top: 20px;
 }
