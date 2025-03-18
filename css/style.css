@@ -16,9 +16,9 @@ ul {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
+  padding-left: 30px;
 
-  padding-right: 10px;
+  padding-right: 30px;
 }
 a {
   text-decoration: none;
@@ -29,4 +29,62 @@ a {
   padding: 5px;
   background-color: #ff000080;
   border: 2px dashed red;
+}
+
+/* HEAD */
+.head {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.title-head {
+  color: #ff9514ff;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* MAIN */
+.none {
+  display: none;
+}
+
+.main-color {
+  background-color: #f5f4f2ff;
+}
+.title {
+  padding-top: 30px;
+}
+.tag {
+  color: gray;
+}
+.ricetta {
+  font-weight: 800;
+  font-size: 30px;
+  color: #4d3869ff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.card {
+  background-color: white;
+  padding: 35px;
+  margin-top: -5px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.title-card {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+.info-bold {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.info-light {
+  font-weight: 100;
+  padding-bottom: 20px;
 }
