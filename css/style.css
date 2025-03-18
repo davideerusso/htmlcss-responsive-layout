@@ -115,6 +115,7 @@ a {
   align-items: center;
   margin: 30px 30px;
   padding: 0;
+  column-gap: 20px;
 }
 .icon img {
   height: 30px;
@@ -127,6 +128,7 @@ a {
   padding: 10px 16px;
   border-radius: 30px;
   box-shadow: 5px 5px 15px #dedede;
+  width: 20%;
 }
 .paragraph {
   padding-bottom: 60px;
@@ -148,9 +150,9 @@ a {
 .paragraph img {
   max-width: 70%;
   display: block;
-  margin: auto;
   margin-bottom: 10px;
   box-shadow: 5px 5px 15px #dedede;
+  margin: auto;
 }
 .text {
   font-size: 20px;
@@ -190,6 +192,12 @@ a {
 }
 
 /* MEDIA QUERY */
+@media screen and (min-width: 576px) {
+  .tiramisu {
+    margin: 10px;
+    float: left;
+  }
+}
 @media screen and (min-width: 768px) {
   .head {
     background-color: white;
@@ -318,5 +326,19 @@ a {
   }
   .info-foot {
     text-align: left;
+  }
+  .info-bold {
+    font-weight: bold;
+    /* padding-bottom: 5px; */
+    font-size: 14px;
+  }
+  .info-light {
+    font-weight: 400;
+    /* padding-bottom: 5px; */
+    font-size: 14px;
+  }
+  .info-dim {
+    min-width: 30%;
+    padding-top: 0px;
   }
 }
