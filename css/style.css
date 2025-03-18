@@ -7,7 +7,7 @@ img {
   max-width: 100%;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat;
 }
 ul {
   list-style: none;
@@ -23,6 +23,20 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* FONT */
+.nerko-one-regular {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-<uniquifier > {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* debug */
 .debug {
   min-height: 50px;
@@ -37,12 +51,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .title-head {
   color: #ff9514ff;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 55px;
+  font-family: Nerko one;
 }
 
 /* MAIN */
@@ -85,7 +100,7 @@ a {
   padding-bottom: 20px;
 }
 .info-light {
-  font-weight: 100;
+  font-weight: 400;
   padding-bottom: 20px;
 }
 
@@ -95,6 +110,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 30px 0;
+  padding: 0;
 }
 .icon img {
   height: 30px;
